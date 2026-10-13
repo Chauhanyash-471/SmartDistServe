@@ -1,0 +1,26 @@
+{
+  "hardware": {},
+  "scheduler": {"duration_weight": 0.1, "aging_rate": 0.2, "starvation_after": 5.0},
+  "workload": {"duration": 90.0, "warmup": 15.0, "estimate_sigma": 0.3},
+  "seeds": [11, 22, 33, 44, 55],
+  "policies": ["fcfs", "sjf", "edf", "smart"],
+  "profiles": {
+    "sharegpt": {"input_mean": 755, "output_mean": 200, "input_sigma": 0.9, "output_sigma": 0.8, "input_min": 16, "input_max": 8192, "output_min": 2, "output_max": 1024, "ttft_slo": 1.5, "tpot_slo": 0.08},
+    "humaneval": {"input_mean": 171, "output_mean": 98, "input_sigma": 0.7, "output_sigma": 0.7, "input_min": 16, "input_max": 2048, "output_min": 2, "output_max": 512, "ttft_slo": 0.35, "tpot_slo": 0.10},
+    "longbench": {"input_mean": 8192, "output_mean": 91, "input_sigma": 0.6, "output_sigma": 0.6, "input_min": 1024, "input_max": 32768, "output_min": 2, "output_max": 512, "ttft_slo": 8.0, "tpot_slo": 0.06}
+  },
+  "workloads": {
+    "sharegpt": {"weights": {"sharegpt": 1}, "rates": [1, 2, 4, 8]},
+    "humaneval": {"weights": {"humaneval": 1}, "rates": [2, 4, 8, 16]},
+    "longbench": {"weights": {"longbench": 1}, "rates": [0.5, 1, 2, 3]},
+    "mixed": {"weights": {"sharegpt": 0.5, "humaneval": 0.25, "longbench": 0.25}, "rates": [1, 2, 3, 6]}
+  },
+  "ablations": [
+    {"name": "no_aging", "rate": 3, "weights": {"sharegpt": 0.5, "humaneval": 0.25, "longbench": 0.25}, "scheduler": {"aging_rate": 0, "starvation_after": null}},
+    {"name": "no_duration", "rate": 3, "weights": {"sharegpt": 0.5, "humaneval": 0.25, "longbench": 0.25}, "scheduler": {"duration_weight": 0}},
+    {"name": "profile_prior_only", "rate": 3, "weights": {"sharegpt": 0.5, "humaneval": 0.25, "longbench": 0.25}, "workload": {"estimate_sigma": 0}},
+    {"name": "noisy_estimates", "rate": 3, "weights": {"sharegpt": 0.5, "humaneval": 0.25, "longbench": 0.25}, "workload": {"estimate_sigma": 1}},
+    {"name": "bursty_arrivals", "rate": 3, "weights": {"sharegpt": 0.5, "humaneval": 0.25, "longbench": 0.25}, "workload": {"burst_multiplier": 4}},
+    {"name": "slow_transfer", "rate": 3, "weights": {"sharegpt": 0.5, "humaneval": 0.25, "longbench": 0.25}, "hardware": {"transfer_latency": 0.02, "transfer_bytes_per_second": 1000000000}}
+  ]
+}

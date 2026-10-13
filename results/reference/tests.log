@@ -1,0 +1,43 @@
+test_cli_respects_config_and_explicit_overrides (test_artifacts.ArtifactTests.test_cli_respects_config_and_explicit_overrides) ... ok
+test_cli_run (test_artifacts.ArtifactTests.test_cli_run) ... ok
+test_experiments_reproduce_gzip_and_numeric_artifacts (test_artifacts.ArtifactTests.test_experiments_reproduce_gzip_and_numeric_artifacts) ... ok
+test_import_requires_provenance_and_validates_ids (test_artifacts.ArtifactTests.test_import_requires_provenance_and_validates_ids) ... ok
+test_all_coincident_arrivals_visible_before_dispatch (test_simulator.AnalyticalTimingTests.test_all_coincident_arrivals_visible_before_dispatch) ... ok
+test_arrival_during_decode_step_waits_for_boundary (test_simulator.AnalyticalTimingTests.test_arrival_during_decode_step_waits_for_boundary) ... ok
+test_coincident_decode_completion_releases_before_transfer_routing (test_simulator.AnalyticalTimingTests.test_coincident_decode_completion_releases_before_transfer_routing) ... ok
+test_coincident_prefill_completion_releases_before_arrival_routing (test_simulator.AnalyticalTimingTests.test_coincident_prefill_completion_releases_before_arrival_routing) ... ok
+test_decode_batch_and_parallel_prefill (test_simulator.AnalyticalTimingTests.test_decode_batch_and_parallel_prefill) ... ok
+test_empty_trace (test_simulator.AnalyticalTimingTests.test_empty_trace) ... ok
+test_multiple_decode_gpus (test_simulator.AnalyticalTimingTests.test_multiple_decode_gpus) ... ok
+test_no_prefill_decode_resource_interference (test_simulator.AnalyticalTimingTests.test_no_prefill_decode_resource_interference) ... ok
+test_prefill_head_of_line_blocking (test_simulator.AnalyticalTimingTests.test_prefill_head_of_line_blocking) ... ok
+test_saturated_decode_admission_is_fcfs_by_ready_time (test_simulator.AnalyticalTimingTests.test_saturated_decode_admission_is_fcfs_by_ready_time) ... ok
+test_single_request_with_transfer (test_simulator.AnalyticalTimingTests.test_single_request_with_transfer) ... ok
+test_single_token_no_decode_or_transfer (test_simulator.AnalyticalTimingTests.test_single_token_no_decode_or_transfer) ... ok
+test_exact_slo_boundary (test_simulator.MetricTests.test_exact_slo_boundary) ... ok
+test_joint_slo_requires_both (test_simulator.MetricTests.test_joint_slo_requires_both) ... ok
+test_measurement_cohort_and_goodput_denominator (test_simulator.MetricTests.test_measurement_cohort_and_goodput_denominator) ... ok
+test_paired_contrasts_validate_trace_identity (test_simulator.MetricTests.test_paired_contrasts_validate_trace_identity) ... ok
+test_quantiles_and_jain (test_simulator.MetricTests.test_quantiles_and_jain) ... ok
+test_t_intervals (test_simulator.MetricTests.test_t_intervals) ... ok
+test_tail_remains_in_cohort_after_drain (test_simulator.MetricTests.test_tail_remains_in_cohort_after_drain) ... ok
+test_aging_promotes_long_request_in_competing_backlog (test_simulator.SchedulingTests.test_aging_promotes_long_request_in_competing_backlog) ... ok
+test_duration_estimates_affect_priority (test_simulator.SchedulingTests.test_duration_estimates_affect_priority) ... ok
+test_fcfs_sjf_edf_smart (test_simulator.SchedulingTests.test_fcfs_sjf_edf_smart) ... ok
+test_hard_aging_and_fifo_within_aged (test_simulator.SchedulingTests.test_hard_aging_and_fifo_within_aged) ... ok
+test_nonpreemptive_prefill (test_simulator.SchedulingTests.test_nonpreemptive_prefill) ... ok
+test_soft_aging_changes_priority (test_simulator.SchedulingTests.test_soft_aging_changes_priority) ... ok
+test_ties_are_deterministic (test_simulator.SchedulingTests.test_ties_are_deterministic) ... ok
+test_unknown_policy_and_empty_queue (test_simulator.SchedulingTests.test_unknown_policy_and_empty_queue) ... ok
+test_deterministic_rng_and_simulation (test_simulator.WorkloadAndValidationTests.test_deterministic_rng_and_simulation) ... ok
+test_estimate_ablations_preserve_realized_trace (test_simulator.WorkloadAndValidationTests.test_estimate_ablations_preserve_realized_trace) ... ok
+test_estimates_independent_of_actual_outputs (test_simulator.WorkloadAndValidationTests.test_estimates_independent_of_actual_outputs) ... ok
+test_invalid_configs (test_simulator.WorkloadAndValidationTests.test_invalid_configs) ... ok
+test_invalid_weights_and_duplicate_ids (test_simulator.WorkloadAndValidationTests.test_invalid_weights_and_duplicate_ids) ... ok
+test_low_load_policies_coincide (test_simulator.WorkloadAndValidationTests.test_low_load_policies_coincide) ... ok
+test_timeline_and_work_conservation_under_overload (test_simulator.WorkloadAndValidationTests.test_timeline_and_work_conservation_under_overload) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.487s
+
+OK

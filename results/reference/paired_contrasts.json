@@ -1,0 +1,4688 @@
+[
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.22057496176671013,
+      "mean": 0.041632971178404435,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.035027122770508075,
+      "mean": 0.06400000000000002,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.003977358143740997,
+      "mean": 0.00719143300502556,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.004540988767839229,
+      "mean": 0.011370876971690258,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.2631179840562858,
+      "mean": -0.06681515400030871,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.032595540981485996,
+      "mean": 0.06403520392842946,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.4516406612230851,
+      "mean": -0.8499617115777733,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0002913857293129689,
+      "mean": 6.208593881404378e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0017923766233215576,
+      "mean": -8.927539805492213e-05,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.06078157871928924,
+      "mean": -0.16065166688855467,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.2119240690911465,
+      "mean": -0.28419044501949553,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.43632232312859526,
+      "mean": -0.4910931426802563,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.08318944833236155,
+      "mean": -0.6680166546337079,
+      "n": 5
+    },
+    "workload": "bursty_arrivals"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.5174839806639292,
+      "mean": 0.23910201655490654,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.030621559147796074,
+      "mean": 0.06399999999999999,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.004285130061189991,
+      "mean": 0.00669595000237515,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0072512909466978265,
+      "mean": 0.008537055484803501,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.17921545523295634,
+      "mean": -0.0066196318464677275,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.028068882810639104,
+      "mean": 0.06402751585065225,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.34910082891949273,
+      "mean": -0.9975165804563508,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0002474582167400736,
+      "mean": 0.00010956312583537964,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0017543277892076183,
+      "mean": -0.00028746242381846377,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.06105211360437875,
+      "mean": -0.19075554477942067,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.33783327974112837,
+      "mean": -0.4360248162701491,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 1.1515018451419692,
+      "mean": -0.1574174071251157,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.21054757472307922,
+      "mean": -0.8442566091477128,
+      "n": 5
+    },
+    "workload": "bursty_arrivals"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.5778799723891634,
+      "mean": 0.1607956999999942,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.018132756069242886,
+      "mean": 0.01955555555555557,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0025530549574573906,
+      "mean": 0.0030360949210931575,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.002640567862604912,
+      "mean": 0.0035788095897129947,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.27532564602590315,
+      "mean": -0.06129303403535926,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.017028668465380876,
+      "mean": 0.019471654396205816,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.10874734695059832,
+      "mean": -0.28016528334014845,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00035820163092498407,
+      "mean": 2.4919588919100623e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0019160831465796996,
+      "mean": -0.0006428042659713605,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.017499227458663925,
+      "mean": -0.06295343786885596,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.2207889530761048,
+      "mean": -0.0797405142135796,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.5376475933512999,
+      "mean": -0.31194176923938316,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.17931014615228866,
+      "mean": -0.24880376373565322,
+      "n": 5
+    },
+    "workload": "bursty_arrivals"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.015560857713035694,
+      "mean": -0.005373249999993846,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.024859933378931942,
+      "mean": 0.029333333333333322,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0018038568957933457,
+      "mean": 0.0019620969701350964,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0028100114998298484,
+      "mean": 0.0023135521823941076,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.13887909701059056,
+      "mean": -0.05506859293273775,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.02148004591824394,
+      "mean": 0.02749812175455526,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.14362160179021152,
+      "mean": -0.11783228208991706,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00020397173910435368,
+      "mean": -4.106087689531787e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0004192968984838993,
+      "mean": -2.7801999302468767e-05,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.04389690362180617,
+      "mean": -0.057362296316554796,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.14692228588130388,
+      "mean": -0.09029406980086022,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.2373779957294785,
+      "mean": 0.018309842551369117,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.3263188002270186,
+      "mean": -0.24246751507429054,
+      "n": 5
+    },
+    "workload": "no_aging"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.019914940189794023,
+      "mean": -0.009439450000058969,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.026172378994318055,
+      "mean": 0.03111111111111107,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.002473102022344385,
+      "mean": 0.0023441901450016013,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.003210390838644485,
+      "mean": 0.003574004333802061,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.010187805051846943,
+      "mean": -0.007546693238435593,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.022764939329050868,
+      "mean": 0.029211846686022037,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.3699446551271558,
+      "mean": -0.3799909321596946,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00016195426377026216,
+      "mean": 0.00011231646990625537,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.000545889883347901,
+      "mean": 5.728060238801777e-05,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.05554086635755822,
+      "mean": -0.06672791084156979,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.10620027354500818,
+      "mean": -0.10472931400364209,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.5972068908946152,
+      "mean": -0.1184797142803724,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.4567981062797125,
+      "mean": -0.14704713835394356,
+      "n": 5
+    },
+    "workload": "no_aging"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.025790189232345686,
+      "mean": 0.004532008470050641,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.011441584419331543,
+      "mean": 0.0062222222222222175,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.001447598698726575,
+      "mean": 0.0004952587087118321,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0023168404114843858,
+      "mean": 0.0006690589187529738,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.1662845711062516,
+      "mean": -0.06279600512186097,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.009836428535565865,
+      "mean": 0.005665825977301364,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.2526285260516065,
+      "mean": -0.10617354828867835,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00021681263116166163,
+      "mean": -8.616178021472395e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.00018785185829378902,
+      "mean": -1.4248555548779934e-05,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.03181573556767835,
+      "mean": -0.01615655750190039,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.15750336548868984,
+      "mean": 0.03744332275427879,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.29462001183016473,
+      "mean": -0.06779907700677228,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.203068059094271,
+      "mean": -0.005333578353780855,
+      "n": 5
+    },
+    "workload": "no_aging"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.015560857713035694,
+      "mean": -0.005373249999993846,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.024859933378931942,
+      "mean": 0.029333333333333322,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0018038568957933457,
+      "mean": 0.0019620969701350964,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0028100114998298484,
+      "mean": 0.0023135521823941076,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.13887909701059056,
+      "mean": -0.05506859293273775,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.02148004591824394,
+      "mean": 0.02749812175455526,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.14362160179021152,
+      "mean": -0.11783228208991706,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00020397173910435368,
+      "mean": -4.106087689531787e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0004192968984838993,
+      "mean": -2.7801999302468767e-05,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.04389690362180617,
+      "mean": -0.057362296316554796,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.14692228588130388,
+      "mean": -0.09029406980086022,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.2373779957294785,
+      "mean": 0.018309842551369117,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.3263188002270186,
+      "mean": -0.24246751507429054,
+      "n": 5
+    },
+    "workload": "no_duration"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.019914940189794023,
+      "mean": -0.009439450000058969,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.026172378994318055,
+      "mean": 0.03111111111111107,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.002473102022344385,
+      "mean": 0.0023441901450016013,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.003210390838644485,
+      "mean": 0.003574004333802061,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.010187805051846943,
+      "mean": -0.007546693238435593,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.022764939329050868,
+      "mean": 0.029211846686022037,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.3699446551271558,
+      "mean": -0.3799909321596946,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00016195426377026216,
+      "mean": 0.00011231646990625537,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.000545889883347901,
+      "mean": 5.728060238801777e-05,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.05554086635755822,
+      "mean": -0.06672791084156979,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.10620027354500818,
+      "mean": -0.10472931400364209,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.5972068908946152,
+      "mean": -0.1184797142803724,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.4567981062797125,
+      "mean": -0.14704713835394356,
+      "n": 5
+    },
+    "workload": "no_duration"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.006190772052698763,
+      "mean": 0.001174250000033794,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.014907793610088222,
+      "mean": 0.020444444444444487,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.001756651835755706,
+      "mean": 0.0017843040612900208,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.002163023050891776,
+      "mean": 0.0017203824883835317,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.006618808969665184,
+      "mean": -0.003438045737047263,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.012374961835107579,
+      "mean": 0.01941361087936937,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.17068695596763686,
+      "mean": -0.1102708384116502,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00010957942866362723,
+      "mean": -2.6688785408891108e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.00020941250265622116,
+      "mean": 0.00019001010995223498,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.034219210331231424,
+      "mean": -0.0410864126245931,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.11259489967417353,
+      "mean": -0.06915756935176147,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.4141279948887136,
+      "mean": -0.23356021891170542,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.1425522166158614,
+      "mean": -0.13069593406360513,
+      "n": 5
+    },
+    "workload": "no_duration"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.015458194865562125,
+      "mean": -0.005837499999998386,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.024859933378931942,
+      "mean": 0.029333333333333322,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0018038568957933457,
+      "mean": 0.0019620969701350964,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0028100114998298484,
+      "mean": 0.0023135521823941076,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.1043181556116753,
+      "mean": -0.04259070662340833,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.02148004591824394,
+      "mean": 0.02749812175455526,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.12378209077241664,
+      "mean": -0.13037555768371298,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0002025818876522632,
+      "mean": -6.967013353315066e-06,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.000714712967245261,
+      "mean": -0.00017471366462434233,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.04389690362180617,
+      "mean": -0.057362296316554796,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.14692228588130388,
+      "mean": -0.09029406980086022,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.24515067446383706,
+      "mean": 0.023298342551368024,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.36434993217025474,
+      "mean": -0.2194960655462453,
+      "n": 5
+    },
+    "workload": "noisy_estimates"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.020412767324578376,
+      "mean": -0.009233750000015561,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.014282010329842507,
+      "mean": 0.02133333333333338,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0014328085353226805,
+      "mean": 0.001553293240366349,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.00240095931503881,
+      "mean": 0.002037631097601733,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.009585083560216257,
+      "mean": -0.004924572572753641,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.012252152538274316,
+      "mean": 0.02011014277626557,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.39303386364684606,
+      "mean": -0.2968462332942604,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00018893256802467214,
+      "mean": -3.57418625330154e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0003058348542116677,
+      "mean": 0.00012877429136526965,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.06140594154934689,
+      "mean": -0.06350019534618617,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.21836481463070423,
+      "mean": -0.07077422638880923,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.46712276713710094,
+      "mean": -0.13136694964295187,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.28555882689278084,
+      "mean": -0.23035555382801856,
+      "n": 5
+    },
+    "workload": "noisy_estimates"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.013290896306354247,
+      "mean": 0.002890550000023495,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.014907793610088219,
+      "mean": 0.010666666666666668,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0018129333788851373,
+      "mean": 0.0013959600842077702,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.00397037159470421,
+      "mean": 0.0010065907165458965,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.1086850785935484,
+      "mean": -0.042756350168178386,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.013663094993643281,
+      "mean": 0.010403480673355215,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.08312842875062498,
+      "mean": -0.11802478062215131,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00011984490719428871,
+      "mean": -5.9739394296820516e-06,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.00037288766714193823,
+      "mean": 4.4695807447957256e-05,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.042551066159650014,
+      "mean": -0.02569050774630761,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.08445884449497222,
+      "mean": -0.06962745657275678,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.5551824649521058,
+      "mean": -0.1716230007194092,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.19317144666427508,
+      "mean": -0.05073948686315686,
+      "n": 5
+    },
+    "workload": "noisy_estimates"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.017871001859380387,
+      "mean": -0.007483600000017532,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.02686124354419835,
+      "mean": 0.030222222222222216,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0016274927010373728,
+      "mean": 0.00187776162489266,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.002844985651363002,
+      "mean": 0.0022622350940657344,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.14999134076718515,
+      "mean": -0.055893395440897164,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.023079121920073793,
+      "mean": 0.028267352523786028,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.134160880100762,
+      "mean": -0.19131578938273924,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0001781598686926309,
+      "mean": -3.1179756882045856e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0003660245709904586,
+      "mean": 1.6255317292078465e-05,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.04389690362180617,
+      "mean": -0.057362296316554796,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.14692228588130388,
+      "mean": -0.09029406980086022,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.25335322967284535,
+      "mean": 0.02807654681570284,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.3107785194334495,
+      "mean": -0.25408353953243157,
+      "n": 5
+    },
+    "workload": "profile_prior_only"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.019302976586491955,
+      "mean": -0.009737900000061472,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.027971676906082526,
+      "mean": 0.027555555555555535,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.002822384710500012,
+      "mean": 0.002027575550493954,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.003400205878219477,
+      "mean": 0.003071570057156192,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.052880236126411725,
+      "mean": -0.022607757528300014,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.024635468169745055,
+      "mean": 0.02591966561606318,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.21643149769428097,
+      "mean": -0.258406671594363,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00011782214268979592,
+      "mean": 8.146565246724136e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0005805706204625519,
+      "mean": 2.4054837853654255e-05,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.05804420713071096,
+      "mean": -0.06435496244399115,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.22805867248660688,
+      "mean": -0.1649477583102143,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.7560709516942766,
+      "mean": -0.05017011428036753,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.36278049075207847,
+      "mean": -0.16844292860930313,
+      "n": 5
+    },
+    "workload": "profile_prior_only"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.015764500378159074,
+      "mean": -0.001413849999991612,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.00836788801473582,
+      "mean": 0.011555555555555564,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.00124341565360536,
+      "mean": 0.0011039842408413047,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.003457198076492309,
+      "mean": 0.00039840822166221647,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.08629671807718187,
+      "mean": -0.030601786156822058,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0067303878986916124,
+      "mean": 0.010902501209496252,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.20656723738954053,
+      "mean": -0.14100068996966258,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00012855789897001077,
+      "mean": -4.670587362726325e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0004106977506063044,
+      "mean": -1.1727698521305645e-05,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.025067672898100662,
+      "mean": -0.0256990594098671,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.2088046919579187,
+      "mean": 0.00911299827607528,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.5374220292720997,
+      "mean": -0.31110176891171903,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.14716148289200745,
+      "mean": -0.05871920001942414,
+      "n": 5
+    },
+    "workload": "profile_prior_only"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.010863278725147611,
+      "mean": -0.005163050000163594,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.024859933378931973,
+      "mean": 0.029333333333333343,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0015172667611090599,
+      "mean": 0.0008956721217947105,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.002137273776181605,
+      "mean": 0.00045744962623244233,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.09817437854342487,
+      "mean": 0.05660075207472417,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.02148004591824395,
+      "mean": 0.027498121754555217,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.1773750851772717,
+      "mean": -0.13214166358069307,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00021044756758635454,
+      "mean": -4.634992883501415e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0002754565230215723,
+      "mean": -0.00018769690217406432,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.04389690362180617,
+      "mean": -0.057362296316554796,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.14692228588130388,
+      "mean": -0.09029406980086022,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.2586701729353646,
+      "mean": 0.047059016913264175,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.3059262367175939,
+      "mean": -0.31293308018944543,
+      "n": 5
+    },
+    "workload": "slow_transfer"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.03545683175750271,
+      "mean": 0.0003239999999976817,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.03254929328014724,
+      "mean": 0.033777777777777775,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0014149305856272123,
+      "mean": 0.0009454246463487914,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0018433920865141183,
+      "mean": 0.0011526136393324115,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.12125295496088398,
+      "mean": 0.06687776819002952,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.027898443720088137,
+      "mean": 0.03151953899371436,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.19295961025645847,
+      "mean": -0.3326796886272009,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00025415723555415466,
+      "mean": -0.00011621117282341262,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0009527404897450969,
+      "mean": -0.0006409120069602717,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.05554086635755822,
+      "mean": -0.06672791084156979,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.10620027354500818,
+      "mean": -0.10472931400364209,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.48536598422139077,
+      "mean": -0.1532509351074765,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.3572405344987825,
+      "mean": -0.2762468339268177,
+      "n": 5
+    },
+    "workload": "slow_transfer"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.00815508519329876,
+      "mean": -0.003821300000052474,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.008183955927134744,
+      "mean": 0.008000000000000007,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.001511484211590564,
+      "mean": 0.0010049533960743817,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0031994525043042353,
+      "mean": 4.7809471252113764e-05,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.05897611839946205,
+      "mean": 0.03285413195604754,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.00725491403451541,
+      "mean": 0.007539312606707838,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.14894626770336852,
+      "mean": -0.038345265990181863,
+      "n": 5
+    },
+    "suite": "ablation",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00022605854837723038,
+      "mean": -5.3871384578609016e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.003174482340201338,
+      "mean": -0.000731092018857582,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.03035304004419272,
+      "mean": -0.021299262220330073,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.20857991960719655,
+      "mean": 0.04155719446225512,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.5651482208882638,
+      "mean": -0.26443489221902394,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.14249867892346643,
+      "mean": -0.09391511967071065,
+      "n": 5
+    },
+    "workload": "slow_transfer"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 2,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "humaneval"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 2,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "humaneval"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 2,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "humaneval"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 7.889866537880151e-15,
+      "mean": 2.842170943040401e-15,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 8.486389519228882e-05,
+      "mean": -4.244608504542502e-05,
+      "n": 5
+    },
+    "offered_rate": 4,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.002938515507090798,
+      "mean": -0.0010585430501047544,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 8.705455087164676e-06,
+      "mean": -1.5388031935584245e-06,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 1.6011060364049303e-05,
+      "mean": 5.767673041804505e-06,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.011714025999996146,
+      "mean": 0.004219749999998612,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.00023633155949356272,
+      "mean": -8.513384707981367e-05,
+      "n": 5
+    },
+    "workload": "humaneval"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 1.9326147156465655e-14,
+      "mean": -2.842170943040401e-15,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 8.486389519336092e-05,
+      "mean": -4.2446085049119284e-05,
+      "n": 5
+    },
+    "offered_rate": 4,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0008455615410007026,
+      "mean": -0.0003045970969022704,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 1.51804487204992e-05,
+      "mean": 1.4970199658927847e-06,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 1.710876096717215e-05,
+      "mean": 9.81666955034155e-06,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.1054312308000158,
+      "mean": 0.037979550000005705,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.00023633155949356272,
+      "mean": -8.513384707981367e-05,
+      "n": 5
+    },
+    "workload": "humaneval"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 4,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0005610672544044622,
+      "mean": 0.0002021135642667371,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 4.016439093086432e-06,
+      "mean": -1.4468440537054873e-06,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 1.6011060364049303e-05,
+      "mean": 5.767673041804505e-06,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.00023633155949671786,
+      "mean": -8.513384708095026e-05,
+      "n": 5
+    },
+    "workload": "humaneval"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.956595217368674,
+      "mean": -0.20231335000001138,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.06210695670304229,
+      "mean": -0.008000000000000007,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.006051969258797729,
+      "mean": 0.001800993069817003,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 1.7275626715015382,
+      "mean": 2.678880943095816,
+      "n": 5
+    },
+    "offered_rate": 8,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.023378668531705105,
+      "mean": -0.0035619132777941044,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 2.157686694555571,
+      "mean": 1.3318107858221393,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0036400605053280807,
+      "mean": -0.0003329761886476837,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.02018028182975539,
+      "mean": 0.011354391345009143,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 4.349706170598598,
+      "mean": 9.16136680862221,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 1.7274402323489253,
+      "mean": 2.678800456170215,
+      "n": 5
+    },
+    "workload": "humaneval"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 2.106392305172077,
+      "mean": -0.4826959000000727,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.6610170982411206,
+      "mean": 0.5137777777777778,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.006896322769478023,
+      "mean": 0.0024378409297528105,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 24.42937407472438,
+      "mean": 22.125597925428067,
+      "n": 5
+    },
+    "offered_rate": 8,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.2345424940040026,
+      "mean": 0.18220480472131956,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 17.126385402720054,
+      "mean": 13.28950816042518,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.013546423436775448,
+      "mean": -0.006839981678373375,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.20958271719100116,
+      "mean": 0.15398951425473098,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 37.327566115091635,
+      "mean": 49.31643046893299,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 24.429229870163926,
+      "mean": 22.125626380666464,
+      "n": 5
+    },
+    "workload": "humaneval"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.06508887225473857,
+      "mean": 0.02893684999999948,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.02546488640665226,
+      "mean": -0.007111111111111202,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.004073470311112865,
+      "mean": -0.0015087450632707445,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.17591907620850836,
+      "mean": 0.07012277844738693,
+      "n": 5
+    },
+    "offered_rate": 8,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.009325287205634324,
+      "mean": -0.0026765073306457498,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.34605637903608494,
+      "mean": 0.16100410746035773,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0005252675874422051,
+      "mean": -0.0001955141948515496,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0032686720278406016,
+      "mean": 0.0012706017883878124,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 3.5213349617688603e-05,
+      "mean": 1.2684924213864774e-05,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.000651442110052868,
+      "mean": 0.00023466934800175365,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 1.1115054784147937,
+      "mean": 0.7082201496924228,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.17510686149550525,
+      "mean": 0.06997812209269663,
+      "n": 5
+    },
+    "workload": "humaneval"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 1.6510928113860328,
+      "mean": 0.14716100000017035,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.014388197742302712,
+      "mean": 0.010666666666666666,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.06663317361040977,
+      "mean": 0.024003304614700925,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.8812854216567814,
+      "mean": 1.1050130580812692,
+      "n": 5
+    },
+    "offered_rate": 16,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.002721686166498772,
+      "mean": 0.0019929817928284227,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 2.671716919934671,
+      "mean": 1.4570497592050458,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.004779886449074204,
+      "mean": 0.002195777180147718,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.021798847178023557,
+      "mean": 0.0002403837445345225,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 1.848420879923609,
+      "mean": 8.13368916308742,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.880903199368988,
+      "mean": 1.1045600972132832,
+      "n": 5
+    },
+    "workload": "humaneval"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 1.7108247630117366,
+      "mean": 0.21718674999993937,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.07621511805701317,
+      "mean": 2.2995555555555556,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.15245573053616412,
+      "mean": 0.4429386592308377,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 2.303744133846183,
+      "mean": 41.095033711909124,
+      "n": 5
+    },
+    "offered_rate": 16,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.017402106450946232,
+      "mean": 0.42622859542626335,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 18.9347467103775,
+      "mean": 49.37904658811245,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.06509458661707453,
+      "mean": -0.16116136431675562,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.23978239544416974,
+      "mean": 0.6160537107833937,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 1.1386854205948196e-05,
+      "mean": -2.1591649664136348e-06,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.00018111960955120737,
+      "mean": 6.524481612075195e-05,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 2.933267498200335,
+      "mean": 70.78019082043514,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 2.304199505145178,
+      "mean": 41.09439589507553,
+      "n": 5
+    },
+    "workload": "humaneval"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0780957822959803,
+      "mean": -0.025335699999988037,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.01425451925971398,
+      "mean": 0.0007364316021266859,
+      "n": 5
+    },
+    "offered_rate": 16,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.010544085778655475,
+      "mean": 0.005139569887273865,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 1.6382262509220507e-05,
+      "mean": 4.2649527080440565e-06,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.00033499432281513473,
+      "mean": 0.000164699838057647,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 2.3324123123087184e-05,
+      "mean": 1.2469760633292138e-05,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.00011644762551508483,
+      "mean": 6.592581656156004e-05,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.011821177401830009,
+      "mean": 0.005526291894130964,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.014438242857000695,
+      "mean": 0.0006542847325334833,
+      "n": 5
+    },
+    "workload": "humaneval"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 0.5,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "longbench"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 0.5,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "longbench"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 0.5,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "longbench"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 1,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "longbench"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0005162943600000837,
+      "mean": -0.00018598500000003014,
+      "n": 5
+    },
+    "offered_rate": 1,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.04586083003684599,
+      "mean": -0.034379003879171185,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 6.272202698575398e-05,
+      "mean": -3.584615421053025e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.00031483852569241664,
+      "mean": 6.201200582349811e-05,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.022670307457862342,
+      "mean": -0.0015405252397995284,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.27750376445173536,
+      "mean": 0.05621338876126005,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.4490569179816306,
+      "mean": -0.0074231914421886815,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.40301153316936394,
+      "mean": 0.01975248548836055,
+      "n": 5
+    },
+    "workload": "longbench"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0007651720113939751,
+      "mean": 0.0002756383326347173,
+      "n": 5
+    },
+    "offered_rate": 1,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0013449999877399627,
+      "mean": 0.0004845100820388915,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 2.9033835582575287e-05,
+      "mean": -9.357293989319809e-06,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.008147755988363576,
+      "mean": 0.0029762144689248426,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.5702679799140353,
+      "mean": 0.20542794665491187,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.017105014663368015,
+      "mean": -0.005801282371792604,
+      "n": 5
+    },
+    "workload": "longbench"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 2,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "longbench"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 2.140115763125859,
+      "mean": 0.26127067191272885,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.16062820083566798,
+      "mean": 0.1288888888888889,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.04289159826206475,
+      "mean": 0.02152746718552303,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.005734388592491833,
+      "mean": -0.0014775862234146842,
+      "n": 5
+    },
+    "offered_rate": 2,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.21772439986773823,
+      "mean": 0.1744387627614764,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 3.081683893211109,
+      "mean": -4.266379698853283,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00021574519500125154,
+      "mean": -2.283905393292429e-06,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.001664008679252513,
+      "mean": 0.000165043107628525,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 1.656141977096335,
+      "mean": -2.2924710036329947,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 3.679291987376361,
+      "mean": 3.2566579924175927,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 8.160984633848033,
+      "mean": 18.29625964771143,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 2.7319094448839687,
+      "mean": 2.162282420721982,
+      "n": 5
+    },
+    "workload": "longbench"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 3.638543144175109,
+      "mean": -1.3092543018739378,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.011307760114842184,
+      "mean": 0.0008888888888888725,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0032946445311280268,
+      "mean": 0.0011592649570864254,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0017733892270675052,
+      "mean": 0.00191433432104631,
+      "n": 5
+    },
+    "offered_rate": 2,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.017348647877562698,
+      "mean": 0.0006366459627329179,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 1.223480734225043,
+      "mean": 0.7900894239540801,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 8.046120567992567e-05,
+      "mean": -3.7749042408948e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.00035295833753251117,
+      "mean": 0.000138901860175579,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.1063775342264935,
+      "mean": 0.15536652218393945,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.30866484892461477,
+      "mean": 0.4267780707642535,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 4.255334065149203,
+      "mean": -1.6356331852952253,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.49872230463561423,
+      "mean": 0.47683182125913354,
+      "n": 5
+    },
+    "workload": "longbench"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "longbench"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 2.765217056223074,
+      "mean": 1.931023783294421,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0733657010534332,
+      "mean": 0.7262222222222222,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.4161755049966867,
+      "mean": 0.6217133359232458,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.6799783525966101,
+      "mean": 0.4,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.007594738472860113,
+      "mean": -0.0005983457982704221,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.05231713213566931,
+      "mean": 0.7080639381129458,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 4.807538910446518,
+      "mean": -17.363135759260807,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00022806775579512268,
+      "mean": -0.0002927456488212146,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0006400877091174393,
+      "mean": -0.0014775611538155923,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 3.676004981951646,
+      "mean": -17.45528786310366,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 7.766589982001553,
+      "mean": 21.082494964987177,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 4.31033354855895,
+      "mean": 56.23130044833364,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 7.586907105529399,
+      "mean": 20.040158335477546,
+      "n": 5
+    },
+    "workload": "longbench"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 2.680430697135976,
+      "mean": -0.8156302444538938,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.027971676906082543,
+      "mean": -0.014222222222222221,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.27952401009173183,
+      "mean": -0.1526423192161309,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.5551999999999999,
+      "mean": -0.2,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.003597705313638162,
+      "mean": -0.0007412698299411047,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.02582233890841589,
+      "mean": -0.013824410508454742,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 1.476468169351926,
+      "mean": -0.4991663942129222,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0002121968726734625,
+      "mean": -6.4513272069660624e-06,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.00038055531647068975,
+      "mean": -8.983104224047634e-05,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.25103756218789186,
+      "mean": 0.07962338125815904,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 3.0198230714625787,
+      "mean": 0.36197754792073483,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 3.898435322398091,
+      "mean": 0.05765479510759519,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 2.7528552791571683,
+      "mean": 0.5329054936203079,
+      "n": 5
+    },
+    "workload": "longbench"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 1,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "mixed"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 1,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "mixed"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 1,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "mixed"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.008149753359491882,
+      "mean": -0.0025480000000015933,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0039015479042788783,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.00048415938315333654,
+      "mean": 0.0001227207955462939,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0017224452634893846,
+      "mean": 0.0006399354673241042,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0014057802141358388,
+      "mean": -0.00039599999999929416,
+      "n": 5
+    },
+    "offered_rate": 2,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.005933563586294395,
+      "mean": 0.00019927536231882924,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.021361317562597053,
+      "mean": -0.009643940796898186,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 1.1110431968830884e-05,
+      "mean": 5.275131412309231e-06,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0002243634836434093,
+      "mean": 8.246435219119094e-05,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0054674563105593516,
+      "mean": -0.002869354509861055,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.010746006084592348,
+      "mean": 0.005432767060995447,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.009778582865315355,
+      "mean": 0.0040917500000063,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.02662540854992785,
+      "mean": -0.0047818395523573694,
+      "n": 5
+    },
+    "workload": "mixed"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.007906757368665557,
+      "mean": -0.0028410000000064885,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0024675555555555713,
+      "mean": 0.0008888888888888946,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.00044666130329853364,
+      "mean": 0.00016090104585682053,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0017328339437127573,
+      "mean": 0.0006242197203576216,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0020053515645555445,
+      "mean": -0.0010055640620477563,
+      "n": 5
+    },
+    "offered_rate": 2,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.004023188405797119,
+      "mean": 0.001449275362318847,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.05327205455802277,
+      "mean": -0.03802560924271976,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 1.1278032383674673e-05,
+      "mean": 2.674931848328094e-06,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0002245776426631243,
+      "mean": 8.207408491747447e-05,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0054125539630262365,
+      "mean": -0.003931246403314592,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.010231567300621624,
+      "mean": 0.006124406834495844,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.02180464885106517,
+      "mean": 0.0067137619348145,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.05764709080110883,
+      "mean": -0.022584105724965886,
+      "n": 5
+    },
+    "workload": "mixed"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.007859550000023226,
+      "mean": 0.0028312500000083674,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0024675555555555713,
+      "mean": -0.0008888888888888946,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.00010598837486202192,
+      "mean": -3.818025031052663e-05,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 4.3626913578955676e-05,
+      "mean": 1.5715746966482592e-05,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.00022048472466553804,
+      "mean": 0.00012208929721096163,
+      "n": 5
+    },
+    "offered_rate": 2,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.003470000000000049,
+      "mean": -0.0012500000000000178,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.04769039731624487,
+      "mean": 0.018687240153157657,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 4.982121526574038e-06,
+      "mean": -5.572575837102523e-07,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0006244583895991155,
+      "mean": -2.683698660593814e-05,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.020510716717414564,
+      "mean": 0.007388586713766054,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0026649600000268276,
+      "mean": -0.00024000000000796718,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.019881119197576368,
+      "mean": -0.009254548251096483,
+      "n": 5
+    },
+    "workload": "mixed"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.015560857713035694,
+      "mean": -0.005373249999993846,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.024859933378931942,
+      "mean": 0.029333333333333322,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0018038568957933457,
+      "mean": 0.0019620969701350964,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0028100114998298484,
+      "mean": 0.0023135521823941076,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.13887909701059056,
+      "mean": -0.05506859293273775,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.02148004591824394,
+      "mean": 0.02749812175455526,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.14362160179021152,
+      "mean": -0.11783228208991706,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00020397173910435368,
+      "mean": -4.106087689531787e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0004192968984838993,
+      "mean": -2.7801999302468767e-05,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.04389690362180617,
+      "mean": -0.057362296316554796,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.14692228588130388,
+      "mean": -0.09029406980086022,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.2373779957294785,
+      "mean": 0.018309842551369117,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.3263188002270186,
+      "mean": -0.24246751507429054,
+      "n": 5
+    },
+    "workload": "mixed"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.019914940189794023,
+      "mean": -0.009439450000058969,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.026172378994318055,
+      "mean": 0.03111111111111107,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.002473102022344385,
+      "mean": 0.0023441901450016013,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.003210390838644485,
+      "mean": 0.003574004333802061,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.010187805051846943,
+      "mean": -0.007546693238435593,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.022764939329050868,
+      "mean": 0.029211846686022037,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.3699446551271558,
+      "mean": -0.3799909321596946,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00016195426377026216,
+      "mean": 0.00011231646990625537,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.000545889883347901,
+      "mean": 5.728060238801777e-05,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.05554086635755822,
+      "mean": -0.06672791084156979,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.10620027354500818,
+      "mean": -0.10472931400364209,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.5972068908946152,
+      "mean": -0.1184797142803724,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.4567981062797125,
+      "mean": -0.14704713835394356,
+      "n": 5
+    },
+    "workload": "mixed"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.029058080401051394,
+      "mean": 0.006010050000082856,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.01032252548292704,
+      "mean": 0.008888888888888901,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0010986346746545447,
+      "mean": 0.0012153317895540639,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.003455280391851314,
+      "mean": 0.0004039512405774381,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.07991854613357467,
+      "mean": -0.027929141117642352,
+      "n": 5
+    },
+    "offered_rate": 3,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.008969194313567899,
+      "mean": 0.008308543375938648,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.12038749090065114,
+      "mean": -0.13222886396666328,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00019446618031597552,
+      "mean": -8.277392668253752e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0003035169821278675,
+      "mean": -0.00011003169222342581,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.03042438876400481,
+      "mean": -0.02113412405705728,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.20857991960719655,
+      "mean": 0.04155719446225512,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.5414399185704919,
+      "mean": -0.31097391891172277,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.1910390043081099,
+      "mean": -0.0262554779604113,
+      "n": 5
+    },
+    "workload": "mixed"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 2.7958429441158503,
+      "mean": 1.0450862466479038,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.20101871325996326,
+      "mean": 0.3262222222222222,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.2375031683586844,
+      "mean": 0.11183025196221916,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.2444606420026572,
+      "mean": 0.19113725979604956,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 1.9682505147511338,
+      "mean": 6.298228841813418,
+      "n": 5
+    },
+    "offered_rate": 6,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.10793783095116583,
+      "mean": 0.16089079871871298,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 3.2842118663061393,
+      "mean": -3.77093940553564,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0252105651350901,
+      "mean": 0.00013775447424577703,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.07483992773905923,
+      "mean": 0.02953356350767401,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 1.3344552514609964,
+      "mean": -2.384843643635629,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.8691629786907031,
+      "mean": -1.0845913372498868,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 7.306429900376448,
+      "mean": 11.307709487451984,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 1.7285957123224225,
+      "mean": 1.5124953797362637,
+      "n": 5
+    },
+    "workload": "mixed"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 1.7570790521870772,
+      "mean": 0.7145708966478281,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.16724857831487142,
+      "mean": 0.9493333333333334,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.24333415858071783,
+      "mean": 0.13028668500317814,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.24694605534775851,
+      "mean": 0.20780813357889383,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 19.079696853204634,
+      "mean": 40.306690559136534,
+      "n": 5
+    },
+    "offered_rate": 6,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.06347951734691339,
+      "mean": 0.4575673424848658,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 9.461827672293534,
+      "mean": 4.810332774610676,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.05731505585264399,
+      "mean": -0.045317995732425044,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.15931501891670974,
+      "mean": 0.1403472590827441,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 2.5415421219311214,
+      "mean": -3.6767501317306603,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 3.352263846922631,
+      "mean": -5.789101850139193,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 4.78864786276002,
+      "mean": 65.04470798853912,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 17.293332753716623,
+      "mean": 33.002461047135,
+      "n": 5
+    },
+    "workload": "mixed"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 1.845274878717065,
+      "mean": -0.30513605000003563,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.06222938330855418,
+      "mean": 0.0791111111111111,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.17491437413052294,
+      "mean": 0.060076477741980196,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.1410913021415248,
+      "mean": 0.027866470191625792,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.6802865259139508,
+      "mean": -0.19872069447518365,
+      "n": 5
+    },
+    "offered_rate": 6,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.03239105802900689,
+      "mean": 0.038990033380953235,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 3.648073518328362,
+      "mean": -1.3758088515692806,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0060668330452488695,
+      "mean": 0.0017071824602231916,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.025520021122797373,
+      "mean": 0.003307130550987314,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.39193716386727917,
+      "mean": -0.5334206166432272,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.3808861865393205,
+      "mean": -0.2356300367874038,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 1.464485489961816,
+      "mean": -0.3811870841243007,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.9894194511680136,
+      "mean": -0.6132526241508813,
+      "n": 5
+    },
+    "workload": "mixed"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 1,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "sharegpt"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 1,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "sharegpt"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 1,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "sharegpt"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 2,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "sharegpt"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 2,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "sharegpt"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "offered_rate": 2,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "workload": "sharegpt"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 1.1378125085767217,
+      "mean": -0.8185926999999736,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.050869960963176156,
+      "mean": 0.00888888888888888,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.01596846970171692,
+      "mean": -0.005771069732189238,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 2.7494078328716114,
+      "mean": 3.552191066253953,
+      "n": 5
+    },
+    "offered_rate": 4,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.036074415522494505,
+      "mean": 0.005133709542807163,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 1.559104849089068,
+      "mean": 1.5657362515029165,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0027902640792559397,
+      "mean": 0.0007989878342319484,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.01514966426094853,
+      "mean": 0.021626023793233615,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 5.13217185561964,
+      "mean": 14.49106724462372,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 2.7557109681526586,
+      "mean": 3.547559482231039,
+      "n": 5
+    },
+    "workload": "sharegpt"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 2.7484564908905185,
+      "mean": -1.67176745000005,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.2548579967407655,
+      "mean": 0.17777777777777776,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.008828423264281153,
+      "mean": 0.003817055894466659,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 25.527883118231404,
+      "mean": 22.92067631068761,
+      "n": 5
+    },
+    "offered_rate": 4,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.17720500869468472,
+      "mean": 0.12313914158600472,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 15.156751514082051,
+      "mean": 12.735361075465327,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.012616969395878645,
+      "mean": 0.0025516564938860226,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.19629965192601778,
+      "mean": 0.1574336099970755,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 31.775787849661825,
+      "mean": 42.85382490502523,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 25.535565453763937,
+      "mean": 22.917750393807903,
+      "n": 5
+    },
+    "workload": "sharegpt"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.13736210074970973,
+      "mean": -0.02931354999997211,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.014388197742302683,
+      "mean": -0.0017777777777778115,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.00111004373482425,
+      "mean": -0.0001346879068196749,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.11852495611922673,
+      "mean": -0.037876806830454426,
+      "n": 5
+    },
+    "offered_rate": 4,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.010621873325205327,
+      "mean": -0.0010634440646795974,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.23625373610531528,
+      "mean": 0.10369334901863762,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.0006719246831491666,
+      "mean": 0.0001513817729036873,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.007340116123413642,
+      "mean": -0.0012190775199934182,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.00024173109433504384,
+      "mean": 8.707892447227805e-05,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.8579590431628092,
+      "mean": 0.44282264660958004,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.1157319889829146,
+      "mean": -0.0418914783108324,
+      "n": 5
+    },
+    "workload": "sharegpt"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 3.4949328332187997,
+      "mean": -1.0672225999999057,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.023278872553412554,
+      "mean": 0.042666666666666665,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.18590360880628537,
+      "mean": -0.05726283192882364,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 1.5239075038929248,
+      "mean": 1.5515937030296356,
+      "n": 5
+    },
+    "offered_rate": 8,
+    "policy": "edf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.008733128087262457,
+      "mean": 0.01576590852100198,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 7.592254948822286,
+      "mean": 0.20339827679582925,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.009184481317549517,
+      "mean": -0.0018183263822544537,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.1323683893856216,
+      "mean": 0.002736955239776373,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 5.891145739925841,
+      "mean": 12.989000825587903,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 1.5301699392043078,
+      "mean": 1.562802986209681,
+      "n": 5
+    },
+    "workload": "sharegpt"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 4.575615890047504,
+      "mean": -1.3273653999997805,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.08874627962878552,
+      "mean": 1.0186666666666666,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.17973658464604383,
+      "mean": 0.10393136911674568,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 3.284094895321802,
+      "mean": 42.23852635782211,
+      "n": 5
+    },
+    "offered_rate": 8,
+    "policy": "sjf",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.04500589779451441,
+      "mean": 0.3762725756664087,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 12.265406414065577,
+      "mean": 20.303180304732397,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.03388308688836861,
+      "mean": -0.084685004917779,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.27925991110793436,
+      "mean": 0.16429015724783377,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.002441668020159145,
+      "mean": -0.0019969621002952328,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.00642160343028142,
+      "mean": 0.0007295278554742546,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 4.832442781188198,
+      "mean": 69.80396121493317,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 3.2794073297797386,
+      "mean": 42.24389228310624,
+      "n": 5
+    },
+    "workload": "sharegpt"
+  },
+  {
+    "drain_seconds": {
+      "ci95_halfwidth": 0.05725732063111267,
+      "mean": 0.015184649999696376,
+      "n": 5
+    },
+    "goodput_per_gpu": {
+      "ci95_halfwidth": 0.003901547904278854,
+      "mean": 0.0,
+      "n": 5
+    },
+    "jain_length_slo": {
+      "ci95_halfwidth": 0.011361634045324776,
+      "mean": -0.006088430365712228,
+      "n": 5
+    },
+    "jain_profile_slo": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "n": 5
+    },
+    "max_token_gap_p95_s": {
+      "ci95_halfwidth": 0.038355790717700226,
+      "mean": -0.011752803807280544,
+      "n": 5
+    },
+    "offered_rate": 8,
+    "policy": "smart",
+    "slo_attainment": {
+      "ci95_halfwidth": 0.0014587089714423673,
+      "mean": 3.5184940845318924e-05,
+      "n": 5
+    },
+    "slowdown_p95": {
+      "ci95_halfwidth": 0.0961840253425715,
+      "mean": 0.010612849126690093,
+      "n": 5
+    },
+    "suite": "main",
+    "tpot_mean_s": {
+      "ci95_halfwidth": 0.00025921845072947444,
+      "mean": -9.452881239588873e-05,
+      "n": 5
+    },
+    "tpot_p95_s": {
+      "ci95_halfwidth": 0.001002927203703613,
+      "mean": 0.00017098576234713113,
+      "n": 5
+    },
+    "ttft_mean_s": {
+      "ci95_halfwidth": 0.001259906803627592,
+      "mean": 0.0008678906267207464,
+      "n": 5
+    },
+    "ttft_p95_s": {
+      "ci95_halfwidth": 0.01052319747090893,
+      "mean": 0.005613429530395797,
+      "n": 5
+    },
+    "waiting_max_s": {
+      "ci95_halfwidth": 0.18351541524263895,
+      "mean": -0.02961395049937323,
+      "n": 5
+    },
+    "waiting_p95_s": {
+      "ci95_halfwidth": 0.047106349124545886,
+      "mean": -0.00766717635690668,
+      "n": 5
+    },
+    "workload": "sharegpt"
+  }
+]

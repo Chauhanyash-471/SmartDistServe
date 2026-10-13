@@ -1,0 +1,80 @@
+{
+  "pages": 15,
+  "figures": 6,
+  "required_sections_present": true,
+  "empty_pages": 0,
+  "bookmarks": [
+    [
+      "Abstract",
+      1
+    ],
+    [
+      "1. Introduction",
+      1
+    ],
+    [
+      "2. Related Work and Contribution",
+      1
+    ],
+    [
+      "3. System Model and Scheduling Policies",
+      2
+    ],
+    [
+      "4. Workloads and Duration Estimation",
+      2
+    ],
+    [
+      "5. Evaluation Metrics",
+      3
+    ],
+    [
+      "6. Experimental Evaluation",
+      3
+    ],
+    [
+      "6.1. Complete Main-Sweep Results",
+      4
+    ],
+    [
+      "6.2. Paired Comparisons with FCFS",
+      5
+    ],
+    [
+      "6.3. Performance Tradeoffs",
+      6
+    ],
+    [
+      "6.4. Component and Sensitivity Ablations",
+      6
+    ],
+    [
+      "6.5. Tested-Grid Capacity Diagnostic",
+      7
+    ],
+    [
+      "7. Limitations and Threats to Validity",
+      7
+    ],
+    [
+      "8. Reproducibility and Artifact Validation",
+      8
+    ],
+    [
+      "9. Conclusion",
+      8
+    ],
+    [
+      "References",
+      8
+    ],
+    [
+      "Appendix A. Reproduction Procedure",
+      9
+    ],
+    [
+      "Appendix B. Measured Figures",
+      9
+    ]
+  ]
+}

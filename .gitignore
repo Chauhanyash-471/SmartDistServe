@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+tmp/
+output/package/*.zip
+# Exact outcomes are tracked in results/reference/requests.csv.gz.
+# The uncompressed CSV is included in the downloadable full bundle.
+data/synthetic/all_policy_outcomes.csv

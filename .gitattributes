@@ -1,0 +1,6 @@
+# Preserve exact source/data bytes so published SHA-256 audit hashes remain valid.
+* -text
+*.pdf binary
+*.png binary
+*.gz binary
+*.zip binary

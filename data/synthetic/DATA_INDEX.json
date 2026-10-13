@@ -1,0 +1,36 @@
+{
+  "source": "synthetic",
+  "actual_benchmark_data_used": false,
+  "stored_trace_instances": 110,
+  "distinct_full_trace_hashes": 95,
+  "input_request_instances": 37350,
+  "input_instances_by_profile": {
+    "sharegpt": 13608,
+    "humaneval": 17133,
+    "longbench": 6609
+  },
+  "policy_outcome_rows": 149400,
+  "policy_runs": 440,
+  "files": {
+    "all_policy_outcomes.csv": {
+      "bytes": 55745704,
+      "sha256": "e2aa7e90ca03213b747ef2e0dc053b8045ffb34549470703d6ba26b8535794c4"
+    },
+    "all_synthetic_requests.csv": {
+      "bytes": 7187873,
+      "sha256": "1564ecb87e77d0264b7379b4c1a2b66f43796fb0065041a443000a23a609248f"
+    },
+    "humaneval_synthetic.csv": {
+      "bytes": 3296287,
+      "sha256": "cc74fed7e7bde18d7828e576497bf9a8cfe4dc5f7bbdcdf7a8a8e5349714f8c2"
+    },
+    "longbench_synthetic.csv": {
+      "bytes": 1278455,
+      "sha256": "7d7c382add07d7ad15a518f93c723c5184ebd9b75e0bbf6ca95ad3619c2e4fba"
+    },
+    "sharegpt_synthetic.csv": {
+      "bytes": 2613487,
+      "sha256": "398683583fead9da9753b6deff59ee9f7fd7c192b91cd7796f5b9cbb59ec838c"
+    }
+  }
+}
